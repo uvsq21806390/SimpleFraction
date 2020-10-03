@@ -7,7 +7,10 @@
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("HELLO WORLD!!!");
+		
+		System.out.println("toString Fraction test:");
+		Fraction f1 =new Fraction(7,13);
+		System.out.println(f1.toString());
 
 	}
 
