@@ -1,16 +1,16 @@
 /**
- * Fraction class
+ * Fraction class renomée en Fract pour confirmer la question de renommer un classe dans l'ensemble du projet
  * @author Melissa HOUAMEL 21806390
  * @version 02.10.20
  *
  */
-public class Fraction {
+public class Fract {
 	
 	private int x;
 	private int y;
 	private double value;
 	
-	public Fraction(int x,int y) {
+	public Fract(int x,int y) {
 		this.x= x;
 		this.y= y;
 		this.value= (double) x/y;
@@ -19,6 +19,8 @@ public class Fraction {
 	public int getX() {
 		return this.x;
 	}
+	
+	//Je suis une ligne du fichier Fraction.java qui contient uneVariable :D
 	
 	public int getY() {
 		return this.y;
